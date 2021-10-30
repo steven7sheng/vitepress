@@ -1,17 +1,56 @@
 {
   "name": "@gadget/vitepress",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "vitepress slef blog",
+  "main": "#index.js",
+  "typings": "types/index.d.ts",
+  "bin": {
+    "#vip-cli": "#bin/vip-cli.js"
+  },
+  "files": [
+    "#bin",
+    "dist",
+    "types"
+  ],
+  "engines": {
+    "node": ">=14.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steven7sheng/vitepress.git"
+  },
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress  serve docs"
+    "serve": "vitepress  serve docs",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "vite",
+    "cli"
+  ],
+  "author": "Gdaget Sheng",
+  "license": "MIT",
+  "homepage": "https://github.com/steven7sheng/vitepress/tree/master/#readme",
+  "bugs": {
+    "url": "https://github.com/steven7sheng/vitepress/issues#"
+  },
+  "dependencies": {
+    "@docsearch/css": "^3.0.0-alpha.41",
+    "@docsearch/js": "^3.0.0-alpha.41",
+    "@vitejs/plugin-vue": "^1.9.4",
+    "vite": "^2.6.13",
+    "vue": "^3.2.20"
+  },
   "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/markdown-it": "^12.2.3",
+    "@types/node": "^16.11.6",
+    "conventional-changelog-cli": "^2.1.1",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4",
     "vitepress": "^0.20.0"
   }
 }

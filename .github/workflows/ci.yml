@@ -1,0 +1,31 @@
+name: Auto Deploy VitePress
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+      with:
+        submodules: true
+        lfs: true #
+        persist-credentials: false
+    # - name: Setup Node.js
+    # uses: actions/setup-node@main
+    # with:
+    #   node-version: '14'
+    - name: Install and Build
+      run: |
+        npm install
+        npm run-script build
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v4
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: master
+        BRANCH: gh-pages
+        FOLDER: public
+        CLEAN: true # Automatically remove deleted files from the deploy branch

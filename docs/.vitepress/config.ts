@@ -1,7 +1,7 @@
 function getGuideSidebar() {
     return [
-        { text: 'Introduction',link: '/guide/index', },
-        { text: 'Advanced',link: '/guide/advanced' }
+        { text: 'Introduction', link: '/guide/index', },
+        { text: 'Advanced', link: '/guide/advanced' }
     ];
 }
 
@@ -11,7 +11,7 @@ function getConfigSidebar() {
         { text: 'Theme Config' }
     ];
 }
-module.exports = {
+export default {
     base: "/vitepress/",
     themeConfig: {
         repo: 'steven7sheng/vitepress',

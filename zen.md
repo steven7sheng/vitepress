@@ -38,3 +38,7 @@ echo '# Hello Gadget'> docs/index.md
 
 5. 可以启动项目了
 > `npm run dev -- --open`
+
+
+### MIT License Gen
+[https://license-generator.intm.org/](https://license-generator.intm.org/)
