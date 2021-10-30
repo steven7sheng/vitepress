@@ -1,5 +1,6 @@
 # @gdaget/vitepress
 
+see @ [https://steven7sheng.github.io/vitepress/](https://steven7sheng.github.io/vitepress/)
 VuePress应该有人用过，而 VitePress 是 VuePress 的下一代框架 ，是支持vue 3.0 的web网站框架。
 
 在它的文档中被称为 "Vuepress 的兄弟”,对比有一些优势,我觉的主要是启动速度快！
