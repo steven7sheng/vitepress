@@ -27,5 +27,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master
         BRANCH: gh-pages
-        FOLDER: public
+        FOLDER: docs/.vitepress/dist
         CLEAN: true # Automatically remove deleted files from the deploy branch

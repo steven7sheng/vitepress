@@ -6,19 +6,19 @@ visit [https://vitepress.vuejs.org/](https://vitepress.vuejs.org/)
 
 ## Getting Started
 * step.1
-```sh
+```bash
 mkdir @group/artifact && cd @group/artifact
 ```
 * step.2
-```sh
+```bash
 yarn init
 ```
 * step.3
-```sh
+```bash
 yarn add --dev vitepress
 ```
 * step.4 
-```sh
+```bash
 mkdir docs && echo '# Hello VitePress'>docs/index.md
 ```
 * step.5
@@ -32,6 +32,6 @@ mkdir docs && echo '# Hello VitePress'>docs/index.md
 }
 ```
 * step.6
-```sh
+```bash
 yarn docs:dev
 ```

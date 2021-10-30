@@ -9,13 +9,13 @@ VuePress应该有人用过，而 VitePress 是 VuePress 的下一代框架 ，�
 ## 构建步骤
 
 1. 目录创建
-```sh
+```bash
 mkdir @gadget/vitepress
 cd  @gadget/vitepress
 ```
 
 2. 初始化`pacakge.json`
-```sh
+```bash
 npm init -y
 # set package-name=@gadget/vitepress
 npm i -D vitepress
@@ -31,7 +31,7 @@ npm i -D vitepress
 ```
 
 4. 创建docs文件夹
-```sh
+```bash
 mkdir docs
 echo '# Hello Gadget'> docs/index.md
 ```
