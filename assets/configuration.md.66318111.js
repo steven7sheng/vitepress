@@ -1,4 +1,4 @@
-import{_ as n,c as a,o as s,a as t}from"./app.3382dd63.js";const h='{"title":"Configuration","description":"","frontmatter":{},"headers":[{"level":2,"title":"Options","slug":"options"},{"level":3,"title":"Base URL","slug":"base-url"},{"level":3,"title":"Line Numbers","slug":"line-numbers"},{"level":3,"title":"Advanced markdown-it","slug":"advanced-markdown-it"},{"level":2,"title":"Github Pages","slug":"github-pages"}],"relativePath":"configuration.md","lastUpdated":1635587277080}',e={},o=t(`__VP_STATIC_START__<h1 id="configuration" tabindex="-1">Configuration <a class="header-anchor" href="#configuration" aria-hidden="true">#</a></h1><p><strong>basic</strong> project structure is like this</p><div class="language-"><pre><code>.
+import{_ as n,c as a,o as s,a as t}from"./app.3382dd63.js";const h='{"title":"Configuration","description":"","frontmatter":{},"headers":[{"level":2,"title":"Options","slug":"options"},{"level":3,"title":"Base URL","slug":"base-url"},{"level":3,"title":"Line Numbers","slug":"line-numbers"},{"level":3,"title":"Advanced markdown-it","slug":"advanced-markdown-it"},{"level":2,"title":"Github Pages","slug":"github-pages"}],"relativePath":"configuration.md","lastUpdated":1635600744432}',e={},o=t(`<h1 id="configuration" tabindex="-1">Configuration <a class="header-anchor" href="#configuration" aria-hidden="true">#</a></h1><p><strong>basic</strong> project structure is like this</p><div class="language-"><pre><code>.
 \u251C\u2500 docs
 \u2502  \u251C\u2500 .vitepress
 \u2502  \u2502  \u2514\u2500 config.js
@@ -81,4 +81,4 @@ cd -
       <span class="token punctuation">-</span> public
   <span class="token key atrule">only</span><span class="token punctuation">:</span>
     <span class="token punctuation">-</span> master
-</code></pre></div>__VP_STATIC_END__`,26),p=[o];function c(i,l,u,r,d,k){return s(),a("div",null,p)}var m=n(e,[["render",c]]);export{h as __pageData,m as default};
+</code></pre></div>`,26),p=[o];function c(i,l,u,r,d,k){return s(),a("div",null,p)}var m=n(e,[["render",c]]);export{h as __pageData,m as default};
